@@ -6,8 +6,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
 @PropertySource(value = {
-		"classpath:application.yml",
-		"${external.yml}"},
+		"classpath:application.yml"},
 		ignoreResourceNotFound = true)
 public class SpringProfilesExampleApplication {
 
