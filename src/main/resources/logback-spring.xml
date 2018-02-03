@@ -26,6 +26,7 @@
         <destination>localhost:5044</destination>
         <encoder class="net.logstash.logback.encoder.LogstashEncoder">
             <includeMdcKeyName>${HOSTNAME}</includeMdcKeyName>
+            <includeMdcKeyName>execution</includeMdcKeyName>
         </encoder>
     </appender>
     <appender name="jsonConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
