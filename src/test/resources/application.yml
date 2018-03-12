@@ -2,3 +2,6 @@ spring:
   profiles:
     active:
       - test
+
+---
+test: 100
